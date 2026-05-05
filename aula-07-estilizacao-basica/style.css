@@ -1,0 +1,70 @@
+/* Seletor de Elemento */
+/* p -> seletor */
+/* font-size -> propriedade */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #30302d;
+    color: white;
+    padding: 20px;
+}
+p {
+    font-size: 10px;
+    font-family: Verdana;
+    line-height: 1.5;
+    padding: 10px;
+
+    margin-bottom: 15px;
+    color: aqua;
+
+}
+section p {
+    color: orange;
+}
+.destaque {
+    background-color: orange;
+    color: black;
+    padding: 10px;
+    border-left: 5px solid orange;
+    border-radius: 10;
+}
+#unico {
+    background-color: cyan;
+    color: blueviolet;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    height: 100px;
+
+}
+.post {
+    background-color: black;
+    padding: 20px;
+    margin: 20px 0px;
+    border-radius: 5px;
+}
+
+h2, h3, h4 {
+    color: green;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.observacoes {
+    background-color: black;
+    padding: 20px;
+    border: 2px solid blue;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+ul {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+li {
+    margin-bottom: 8px;
+}
+.observacoes h2 {
+    color: cyan;
+}

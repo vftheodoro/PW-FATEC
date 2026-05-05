@@ -1,0 +1,15 @@
+body {
+    font-family: Verdana;
+}
+.box {
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+
+    padding: 20px;
+
+    border: 10px solid blue;
+}
+p {
+    background-color: red;
+}
